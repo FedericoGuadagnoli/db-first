@@ -1,0 +1,41 @@
+ COLONNE                 TYPES                   INDICI                      ATTRIBUTI
+
+ ID_auto                  INT                   PRIMARY KEY                AUTO_INCREMENT
+
+  Marca                VARCHAR(30)                                            NOT NULL
+
+  Modello              VARCHAR(50)                                            NOT NULL
+
+  Anno_produzione         YEAR                                                NOT NULL
+
+  Chilometri              INT                                                 NOT NULL
+
+  Prezzo               FLOAT(6,2)                                             NOT NULL
+
+  Colore               VARCHAR(50)                                            NOT NULL
+
+  Cilindrata              INT                                                 NOT NULL
+
+  Potenza                 INT                                                 NOT NULL
+
+  Carburante            VARCHAR(15)                                           NOT NULL
+
+  Tipo_cambio           VARCHAR(20)                                           NOT NULL
+
+  Numero_porte          TINYINT                                               NOT NULL
+
+  Numero_posti          TINYINT                                               NOT NULL
+
+  Clima                 TINYINT(1)                                            NOT NULL,DEFAULT(1)
+
+  Radio                 TINYINT(1)                                            NOT NULL,DEFAULT(1)
+
+  Navigatore            TINYINT(1)                                            NOT NULL,DEFAULT(0)
+
+  Sensori_parcheggio    TINYINT(1)                                            NOT NULL,DEFAULT(0)
+
+  Fari_xeno             TINYINT(1)                                            NOT NULL,DEFAULT(0)
+
+  Cerchi_in_lega        TINYINT(1)                                            NOT NULL,DEFAULT(1)
+
+  Vernice_metallizzata  TINYINT(1)                                            NOT NULL,DEFAULT(0)
