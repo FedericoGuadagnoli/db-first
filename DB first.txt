@@ -26,9 +26,9 @@
 
   Numero_posti          TINYINT                                               NOT NULL
 
-  Clima                 TINYINT(1)                                            NOT NULL,DEFAULT(1)
+  Clima                 TINYINT(1)                                            NOT NULL,DEFAULT(0)
 
-  Radio                 TINYINT(1)                                            NOT NULL,DEFAULT(1)
+  Radio                 TINYINT(1)                                            NOT NULL,DEFAULT(0)
 
   Navigatore            TINYINT(1)                                            NOT NULL,DEFAULT(0)
 
@@ -36,6 +36,6 @@
 
   Fari_xeno             TINYINT(1)                                            NOT NULL,DEFAULT(0)
 
-  Cerchi_in_lega        TINYINT(1)                                            NOT NULL,DEFAULT(1)
+  Cerchi_in_lega        TINYINT(1)                                            NOT NULL,DEFAULT(0)
 
   Vernice_metallizzata  TINYINT(1)                                            NOT NULL,DEFAULT(0)
